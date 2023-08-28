@@ -1,0 +1,25 @@
+.nav_list{
+  @include set-box-size(100%, 70px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  list-style-type: none;
+  z-index: 20;
+
+  .nav_btn{
+    padding: 16px 0;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+
+    &.active {
+      color: #000;
+    }
+    &:first-child{
+      margin-top: 50px;
+    }
+  }
+}

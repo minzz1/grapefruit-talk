@@ -1,0 +1,13 @@
+*{
+  font-family: 'NanumBarunpen';
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  min-width: 300px; 
+  // 최소너비 300px 이하 찌그러지지 않는다
+}

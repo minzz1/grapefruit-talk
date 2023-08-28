@@ -1,0 +1,29 @@
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: 12px;
+  background-color: #fff;
+  line-height: 36px;
+  z-index: 10;
+  
+  .header_title{
+    margin: 0;
+    font: 1em;
+  }
+}
+
+.header_menu{
+  span{
+    @include set-box-size(36px, 36px, 18px);
+
+    display: inline-block;
+    text-align: center;
+
+    &:hover{
+      background-color: #eaeaea;
+    }
+  }
+}
