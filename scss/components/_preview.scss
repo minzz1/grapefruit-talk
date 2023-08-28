@@ -8,5 +8,6 @@
 
   .previews__pic {
     @include set-box-size(50px, 50px, 18px);
+    background: $main-color;
   }
 }
